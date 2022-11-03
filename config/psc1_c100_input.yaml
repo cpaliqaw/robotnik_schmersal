@@ -1,0 +1,59 @@
+rover_power_enabled: 240
+rover_motion_enabled: 241
+estop_ok: 242
+hw_ok: 243
+brake_released: 244
+wdog_ok: 245
+lasers_ok: 246
+bumpers_ok: 247
+hw_ok_edm: 248
+hw_ok_selector: 249
+hw_ok_estop: 250
+arm_estop_off: 251
+arm_sgstop_off: 252
+arm_safe_position: 253
+column_safe_position: 254
+vel_ok: 255
+safe_sensor1_ok: 256
+safe_sensor2_ok: 257
+safe_snput1_ok: 258
+safe_snput2_ok: 259
+safe_snput3_ok: 260
+safe_input4_ok: 261
+safe_input5_ok: 262
+safe_input6_ok: 263
+op_mode_auto: 264
+op_mode_manual: 265
+op_mode_maintenance: 266
+op_mode_emergency: 267
+op_mode_aux1: 268
+op_mode_aux2: 269
+op_mode_aux3: 270
+op_mode_aux4: 271
+lsr_mode_standard: 272
+lsr_mode_docking: 273
+lsr_mode_standby: 274
+lsr_mode_cart: 275
+lsr_mode_workstation: 276
+lsr_mode_auz1: 277
+lsr_mode_aux2: 278
+lsr_mode_error: 279
+lsr1_safezone_free: 280 # 
+lsr2_safezone_free: 281
+lsr1_warningzone1_free: 282 # LaserStatus.msg free_warning, warning_zones
+lsr2_warningzone1_free: 283 # LaserStatus.msg free_warning, warning_zones
+lsr1_warningzone2_free: 284 # LaserStatus.msg free_warning, warning_zones
+lsr2_warningzone2_free: 285 # LaserStatus.msg free_warning, warning_zones
+lsr1_status_ok: 286
+lsr2_status_ok: 287
+lsr1_contamination_ok: 288 # LaserStatus.msg contaminated
+lsr2_contamination_ok: 289 # LaserStatus.msg contaminated
+
+platform_moving: 296
+platform rotating: 297
+mode_changed: 298
+reset_required: 299
+arm_initialized: 300
+charge _ready: 301
+charge_on: 302
+deadman: 303

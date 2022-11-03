@@ -1,0 +1,31 @@
+# Taken from "PSC1-C-10 Ethernet/IP for Theron / From Schmersal to Ethernet/IP"
+
+rover_power_enabled: 8
+rover_motion_enabled: 9
+hw_ok: 10
+wdog_ok: 11
+lasers_ok: 12
+hw_ok_edm: 13
+hw_ok_selector: 14
+hw_ok_estop: 15
+vel_ok: 16
+op_mode_auto: 17
+op_mode_manual: 18
+op_mode_maintenance: 19
+op_mode_emergency: 20
+
+lsr1_safezone_free: 24
+lsr2_safezone_free: 25
+lsr1_warningzone1_free: 26
+lsr2_warningzone1_free: 27
+lsr1_warningzone2_free: 28
+lsr2_warningzone2_free: 29
+
+lsr_mode_standard: 32
+lsr_mode_docking: 33
+lsr_mode_standby: 34
+lsr_mode_cart: 35
+platform_moving: 36
+mode_changed: 37
+reset_required: 38
+lsr_error_mode: 39

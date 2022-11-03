@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="ip_address" default="192.168.0.250"/>
+    <!-- Desired frequency -->
+	<arg name="desired_freq" default="1.0" />
+    <node name="eipscanner_node" pkg="robotnik_eipscanner" type="eipscanner_node" output="screen">
+        <rosparam file="$(find robotnik_eipscanner)/config/common.yaml" command="load" subst_value="true"/>
+        <param name="desired_freq" value="$(arg desired_freq)"/>
+    </node>
+    
+</launch>
